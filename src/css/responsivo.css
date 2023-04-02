@@ -1,0 +1,31 @@
+@media(max-width: 375px) {
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho .logo .nome {
+        font-size: 40px;
+    }
+
+    .navegacao .menu {
+        flex-direction: column;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .menu li {
+        margin: 15px;
+        line-height: 47px;
+        padding-inline: 50px;
+    }
+
+    .menu .cadastre-se {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    .menu .botao{
+        margin-top: 0;
+    }
+    
+}

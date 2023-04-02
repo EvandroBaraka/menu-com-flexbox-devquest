@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .logo .nome {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navegacao .menu {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.menu li {
+    padding: 10px;
+    line-height: 18px;
+}
+
+.menu .sobre {
+    background-color: #5BC241;
+    color: #fff;
+}
+
+.menu .cadastre-se {
+    background-color: #5BC241;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    cursor: pointer;
+}
