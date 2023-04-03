@@ -1,4 +1,4 @@
-@media(max-width: 375px) {
+@media(max-width: 690px) {
     .cabecalho{
         flex-direction: column;
     }
@@ -14,18 +14,17 @@
     }
 
     .menu li {
-        margin: 15px;
-        line-height: 47px;
-        padding-inline: 50px;
+        margin: 25px;
     }
 
-    .menu .cadastre-se {
+    .menu li a {
+        padding: 17px 40px;
+    }
+
+    .menu li a.btn {
         font-size: 18px;
         padding: 15px 25px;
     }
 
-    .menu .botao{
-        margin-top: 0;
-    }
     
 }

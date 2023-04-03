@@ -12,7 +12,7 @@ body {
     margin: 45px;
 }
 
-.cabecalho .logo {
+.cabecalho .logo a {
     display: flex;
     align-items: center;
 }
@@ -25,28 +25,26 @@ body {
 .navegacao .menu {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     font-size: 15px;
     font-weight: 400;
 }
 
-.menu li {
-    padding: 10px;
-    line-height: 18px;
+.menu li a {
+    padding: 10px 5px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
 }
 
-.menu .sobre {
+.menu li a:hover {
     background-color: #5BC241;
     color: #fff;
 }
 
-.menu .cadastre-se {
+.menu li a.btn {
     background-color: #5BC241;
     color: #fff;
-    border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 15px;
     font-weight: 300;
-    padding: 10px;
-    cursor: pointer;
+    padding: 10px 20px; 
 }
